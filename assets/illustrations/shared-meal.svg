@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">People sharing a meal</title>
+  <desc id="desc">Three older adults sit together at a dining table, with the table and conversation in the foreground.</desc>
+  <rect width="1200" height="800" rx="32" fill="#f5eee3"/>
+  <rect x="96" y="90" width="1008" height="410" rx="28" fill="#e9eef5"/>
+  <rect x="156" y="144" width="254" height="246" rx="16" fill="#f9f7f1"/>
+  <path d="M283 144v246M156 267h254" stroke="#d3c6b4" stroke-width="12"/>
+  <rect x="834" y="148" width="188" height="286" rx="18" fill="#d9cbb7"/>
+  <path d="M866 194h124M866 254h124M866 314h124" stroke="#f9f7f1" stroke-width="12"/>
+  <circle cx="322" cy="414" r="73" fill="#c88767"/>
+  <path d="M254 404c0-68 35-105 78-105 43 0 71 37 72 91-47-14-98-9-150 14" fill="#aaa397"/>
+  <path d="M263 501c19-54 98-66 132-8l22 72H244z" fill="#2c4c7e"/>
+  <circle cx="600" cy="400" r="78" fill="#a96e50"/>
+  <path d="M526 389c4-73 43-111 86-111 46 0 78 39 72 98-44-16-104-13-158 13" fill="#8a8175"/>
+  <path d="M531 492c25-59 119-68 150-5l24 78H510z" fill="#d98a6c"/>
+  <circle cx="878" cy="414" r="73" fill="#d5a17e"/>
+  <path d="M810 404c1-65 37-100 78-100 44 0 73 38 71 90-44-15-96-11-149 10" fill="#a29c91"/>
+  <path d="M817 501c19-54 98-66 132-8l22 72H798z" fill="#8a1f2d"/>
+  <path d="M205 558h790l-62 42H267z" fill="#8a1f2d"/>
+  <path d="M292 600v120M906 600v120" stroke="#654f46" stroke-width="24" stroke-linecap="round"/>
+  <ellipse cx="600" cy="550" rx="214" ry="30" fill="#f9f7f1"/>
+  <circle cx="600" cy="535" r="40" fill="#d9cbb7"/>
+  <path d="M600 496v-46m0 0c-30-18-42-1-25 17m25-17c30-18 42-1 25 17" fill="none" stroke="#6d8c77" stroke-width="12" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Reading together</title>
+  <desc id="desc">An older adult and a visitor look at a book together in a comfortable sitting area.</desc>
+  <rect width="1200" height="800" rx="32" fill="#f5eee3"/>
+  <rect x="82" y="82" width="1036" height="438" rx="30" fill="#e9eef5"/>
+  <rect x="146" y="140" width="282" height="270" rx="20" fill="#f9f7f1"/>
+  <path d="M287 140v270M146 275h282" stroke="#d3c6b4" stroke-width="12"/>
+  <rect x="822" y="138" width="222" height="310" rx="18" fill="#d9cbb7"/>
+  <path d="M856 184h154M856 250h154M856 316h154M856 382h154" stroke="#f9f7f1" stroke-width="12"/>
+  <path d="M180 545c14-70 74-110 148-110s131 44 142 110v76H180z" fill="#2c4c7e"/>
+  <path d="M724 545c14-70 74-110 148-110s131 44 142 110v76H724z" fill="#d98a6c"/>
+  <circle cx="394" cy="374" r="74" fill="#c88767"/>
+  <path d="M324 366c3-67 39-105 81-105 43 0 76 39 68 92-39-20-94-18-149 13" fill="#aaa397"/>
+  <circle cx="790" cy="374" r="74" fill="#d5a17e"/>
+  <path d="M720 366c3-67 39-105 81-105 43 0 76 39 68 92-39-20-94-18-149 13" fill="#80796e"/>
+  <path d="M481 534h242l-14 102H495z" fill="#8a1f2d"/>
+  <path d="M510 517v-105l92 18v105z" fill="#fffaf0" stroke="#8a1f2d" stroke-width="8" stroke-linejoin="round"/>
+  <path d="m602 535 1-105 88-17-1 105z" fill="#f2e2cf" stroke="#8a1f2d" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M546 451h37m-37 22h37m49 1h36m-36 21h36" stroke="#2c4c7e" stroke-width="7" stroke-linecap="round"/>
+  <path d="M331 620v83M851 620v83" stroke="#654f46" stroke-width="24" stroke-linecap="round"/>
+</svg>
