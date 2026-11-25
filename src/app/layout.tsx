@@ -51,6 +51,7 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.svg",
   },
+  ...(site.isStaging ? { robots: { index: false, follow: false } } : {}),
 };
 
 const localBusinessAddress = {

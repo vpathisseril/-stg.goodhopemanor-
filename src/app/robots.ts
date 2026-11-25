@@ -4,6 +4,10 @@ import { site } from "@/content/site";
 export const dynamic = "force-static";
 
 export default function robots(): MetadataRoute.Robots {
+  if (site.isStaging) {
+    return { rules: { userAgent: "*", disallow: "/" } };
+  }
+
   return {
     rules: {
       userAgent: "*",

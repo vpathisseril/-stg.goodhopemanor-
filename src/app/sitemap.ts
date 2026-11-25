@@ -17,7 +17,7 @@ const routes = [
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  if (!site.url) return [];
+  if (!site.url || site.isStaging) return [];
 
   return routes.map((route) => ({
     url: new URL(route, site.url).toString(),

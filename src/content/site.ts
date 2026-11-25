@@ -22,6 +22,8 @@ export const site = {
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "",
   formEndpoint: process.env.NEXT_PUBLIC_FORMSPREE_ENDPOINT ?? "",
   privacyPolicyUrl: "/privacy/",
+  /** Set NEXT_PUBLIC_SITE_ENV=staging on non-production hosts to block search indexing. */
+  isStaging: (process.env.NEXT_PUBLIC_SITE_ENV ?? "").trim().toLowerCase() === "staging",
 } as const;
 
 export const googleMapsSearchUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
