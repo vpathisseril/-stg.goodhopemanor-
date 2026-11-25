@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Newsreader, Source_Sans_3 } from "next/font/google";
+import localFont from "next/font/local";
 import { SiteFooter } from "@/components/layout/SiteFooter";
 import { SiteHeader } from "@/components/layout/SiteHeader";
 import { SkipLink } from "@/components/layout/SkipLink";
@@ -8,18 +8,28 @@ import { pageMetadata } from "@/content/metadata";
 import { site } from "@/content/site";
 import "./globals.css";
 
-const newsreader = Newsreader({
+// Fonts are self-hosted from @fontsource (SIL OFL) so builds never depend on
+// fonts.googleapis.com being reachable and visitors make no third-party requests.
+const newsreader = localFont({
   variable: "--font-newsreader",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
   display: "swap",
+  src: [
+    { path: "../../node_modules/@fontsource/newsreader/files/newsreader-latin-400-normal.woff2", weight: "400", style: "normal" },
+    { path: "../../node_modules/@fontsource/newsreader/files/newsreader-latin-500-normal.woff2", weight: "500", style: "normal" },
+    { path: "../../node_modules/@fontsource/newsreader/files/newsreader-latin-600-normal.woff2", weight: "600", style: "normal" },
+    { path: "../../node_modules/@fontsource/newsreader/files/newsreader-latin-700-normal.woff2", weight: "700", style: "normal" },
+  ],
 });
 
-const sourceSans = Source_Sans_3({
+const sourceSans = localFont({
   variable: "--font-source-sans",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
   display: "swap",
+  src: [
+    { path: "../../node_modules/@fontsource/source-sans-3/files/source-sans-3-latin-400-normal.woff2", weight: "400", style: "normal" },
+    { path: "../../node_modules/@fontsource/source-sans-3/files/source-sans-3-latin-500-normal.woff2", weight: "500", style: "normal" },
+    { path: "../../node_modules/@fontsource/source-sans-3/files/source-sans-3-latin-600-normal.woff2", weight: "600", style: "normal" },
+    { path: "../../node_modules/@fontsource/source-sans-3/files/source-sans-3-latin-700-normal.woff2", weight: "700", style: "normal" },
+  ],
 });
 
 export const metadata: Metadata = {
